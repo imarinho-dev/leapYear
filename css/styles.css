@@ -1,0 +1,71 @@
+::placeholder {
+	color: #000;
+	opacity: 0.2;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	background-color: #fff;
+	height: 100%;
+}
+
+h5 {
+	font-size: 2.5rem;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.card {
+	width: 25rem;
+}
+
+.card:hover {
+	transition: transform 0.5s;
+	transform: scale(1.02);
+}
+
+.bg-title {
+	background-color: #ffb74d;
+}
+
+.card-title {
+	height: 1.5rem;
+}
+
+.card-input {
+	height: 60px;
+	color: rgba(55, 71, 79, 0.5);
+	font-size: 1.2rem;
+	border: 1px solid rgba(255, 183, 77, 1);
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(255, 183, 77, 0.075) inset,
+		0 0 10px rgba(255, 183, 77, 0.6);
+}
+
+.card-input:focus {
+	outline: none;
+}
+
+#card-btn {
+	color: rgba(55, 71, 79, 0.9);
+	border: 1px solid rgba(255, 183, 77, 1);
+	background-color: transparent;
+	box-shadow: 0 1px 1px rgba(255, 183, 77, 0.075) inset,
+		0 0 10px rgba(255, 183, 77, 0.6);
+}
+
+#card-btn:hover {
+	transition: all 0.5s;
+	font-weight: bold;
+	color: #fff;
+	background-color: #ffb74d !important;
+	border: 1px solid #ffb74d;
+}
